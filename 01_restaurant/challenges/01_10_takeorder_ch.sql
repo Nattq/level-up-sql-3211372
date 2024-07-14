@@ -7,3 +7,9 @@
 -- 1 Tropical Blue Smoothie
 -- Delivery date and time: September 20, 2022 @ 2PM (14:00)
 -- There are no taxes or other fees.
+
+SELECT FirstName, LastName, CustomerID, Address
+FROM Customers
+WHERE FirstName = 'Loretta' and LastName ='Hundey'
+
+INSERT into 
